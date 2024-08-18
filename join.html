@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="join.css"><link rel="Website icon" type="jpg" href="./logo.jpg">
+ <section class="contact-section">
+    <div class="contact-intro">
+      <h2 class="contact-title">Fill in to join</h2>
+      <p class="contact-description">
+        Be Part The ICT Members
+      </p>
+    </div>
+  
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  
+      <input type="hidden" name="access_key" value="567fd98c-729e-400c-99c5-ba29196f95b4" />
+      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+      <input type="hidden" name="from_name" value="My Website" />
+  
+      <div class="form-group-container">
+        <div class="form-group">
+          <label for="name" class="form-label">Name & class</label>
+          <input id="name" name="name" class="form-input" placeholder="Your name & class" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+        </div>
+        <div class="form-group">
+          <label for="phone" class="form-label">Phone</label>
+          <input id="phone" name="phone" class="form-input" placeholder="+62 858.." type="text" />
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+        </div>
+      </div>
+      <button class="form-submit" type="submit">Send Message</button>
+    </form>
+  
+  </section>

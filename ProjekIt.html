@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galey</title>
+    <link rel="Website icon" type="jpg" href="./logo.jpg">
+    <style>
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./umberto-FewHpO4VC9Y-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 16px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 24px;
+  }
+  .hero-subtext {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+        .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+} 
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fa0505;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #666;
+}
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #1b1818;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .netflix-logo {
+            font-size: 48px;
+            font-weight: bold;
+            color: #e50914;
+            margin-bottom: 32px;
+        }
+
+        .hero-text {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .hero-subtext {
+            font-size: 18px;
+            margin-bottom: 32px;
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input[type="email"] {
+            width: 300px;
+            height: 40px;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+
+        .btn {
+            background-color: #e50914;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .hero-image {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 16px;
+            margin-top: 32px;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .hero-image img:nth-child(1) {
+            grid-column: 1 / span 2;
+            grid-row: 1 / span 2;
+        }
+
+  
+    </style>
+</head>
+<body>
+    <div class="background-container">
+        <div class="background-overlay"></div>
+      </div>
+    <ul class="nav-links">
+        <li><a href="./Itclub.html">Home</a></li>
+        <li><a href="./ProjekIt.html">Galery</a></li>
+        <li><a href="./Anggota.html">Member</a></li>
+        <li><a href="./About.html">About</a></li>
+        <li><a href="./join.html">Join</a></li>
+    </ul>
+    <div class="container">
+       
+        <h2 class="hero-text">Galery ICT </h2>
+        <p class="hero-subtext">These are some of the galery we have made </p>
+        <div class="input-container">
+        <div class="hero-image">
+            <img src="./galery4.jpeg" alt="image 1">
+            <img src="./projek.jpeg" alt="image 1">
+            <img src="https://lh4.googleusercontent.com/zXsuc8arOhW-vzrl74atTnGOVnsv4_sOHnLFMW14eeOjZfkGgm4xqnAjI7XxGMkoSKUxiTQGtxswlkD-UBQ4x_ThXiVY9M5VqK8JEaV5PEupbGC0U4mQaplSJ46pY3kw=w1280" alt="image 1">
+            <img src="./galery1.jpeg" alt="image 1">
+            <img src="./galery2.jpeg" alt="image 1">
+            <img src="./galery3.jpeg" alt="image 1">
+            <img src="https://lh5.googleusercontent.com/LtkbwiTwKSc5wPidTbCi4EDp3pptjn-xoQi__2Q-nnF6Ps6N16mGLN87woHVsXCEJIGgajBA-8PBtthp3utwEbHhnCmIEbB3-8cq6HL9yMZUWgkSYDGEvv922xLVo6H2lQ=w1280" alt="image 1">
+            <img src="./galeryjpeg.jpeg" alt="image 1">
+        </div>
+    </div>
+</body>
+</html>
